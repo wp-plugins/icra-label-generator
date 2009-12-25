@@ -188,12 +188,69 @@ This context qualifier is provided to describe material that reports real life e
 </fieldset>
 
 <fieldset class="selectors">
- <label for="agree_terms"> You agree to ICRA Terms and Conditions</label> (<a>see below</a>). <input type="checkbox" name="agree_terms" id="agree_terms"  /><br />
+ <label for="agree_terms"> You agree to ICRA Terms and Conditions</label> (<a class="icradescription" title="Click for Description!" onclick="toggleVisibility('termsandconditions');">read now</a>). <input type="checkbox" name="agree_terms" id="agree_terms"  /><br />
 <input type="reset" value="Clear Form"/><input type="submit" name="submit" value="Create ICRA Labels" id="icrasubmitbutton"/>
 </fieldset>
 <input type="hidden" name="whichForm" value="icra" />
   </form>
-
+<div id="termsandconditions" class="icradescriptiontext">
+  <h2><a name="tandc">ICRA&#8482; Terms and Conditions - content providers</a></h2>
+  <p>In return for using the ICRA&#8482; label (computer code) you agree to these terms and conditions: </p>
+  <ol>
+  <li>You <strong>acknowledge the validity of the ICRA Marks</strong> and that ICRA&#8482; 
+	has established significant rights and valuable good will therein. You agree not 
+	to impair the title, rights and interest of ICRA in the ICRA Marks, including the 
+	label (computer code), the acronym and full name of the organization and the ICRA 
+	logos. You will not make any claim to, apply to register, or register the label, 
+	any ICRA Mark or any confusingly similar marks. All use of the label and other 
+	ICRA Marks shall inure solely to the benefit of ICRA. </li>
+  <li>When the registration questionnaire is submitted a database entry is created and 
+	ICRA&#8482; will send a label (computer code) which must be placed as instructed. </li>
+  <li>By submitting the registration and applying the label (computer code) as instructed you 
+	get a licence to use the label (computer code) for the content specified. </li>
+  <li>If any of following conditions is not met, the licence is invalid and ICRA&#8482; 
+	can remove the database entry. </li>
+  <li><ul>
+    <li>You agree to <strong>comply with the instructions</strong> for the use of the 
+	label (computer code) given on the website at www.icra.org. </li>
+    <li>All information submitted through the registration must be accurate, true and 
+	complete. </li>
+    <li>The label (computer code) must be present as instructed and correspond to the entry 
+	in the 	database. </li>
+    <li>The<strong> label (computer code) must at all times reflect accurately the content</strong> it describes. </li>
+  </ul></li>
+  <li>ICRA&#8482; may perform automated and manual checks of the label (computer code) and 
+	content at any time. </li>
+  <li>Without a valid licence the use of labels and ICRA&#8482; marks must be 
+	discontinued and no confusingly similar mark or name can be used. </li>
+  <li>If ICRA&#8482; revokes a licence because of misrepresentation of content, notification will be sent to the e-mail 
+	address given during the registration questionnaire. If the situation is not remedied two weeks after such 
+	notification ICRA reserves the right to take appropriate action including, but not limited to, making the 
+	misrepresentation known through lists, web-postings and notifications to the press. </li>
+  <li>You hereby indemnify and hold ICRA&#8482; harmless from any claims, suits, losses 
+	or damages (including reasonable legal fees incurred by ICRA), arising as a result 
+	of breach of this agreement or any other action taken by you in connection with 
+	any services, labelled site, misrepresentation, or violation of the registration 
+	questionnaire. </li>
+  <li>The use of the label (computer code) is entirely voluntary, and you enter into this agreement without any 
+	representation or warranty of any kind being made by ICRA&#8482; hereunder. The occurrence and/or results of any review, 
+	evaluation, or other proceedings conducted by or for ICRA with respect to the label (computer code) for the site 
+	does not constitute any representation or warranty by or on behalf of ICRA, including any representation that the 
+	label (computer code) is appropriate for the site. Moreover, these occurrences and/or results shall <strong>not give rise to any liability or obligations on the part of ICRA</strong>, or any 
+	rights of reliance by or for you or any third party, nor otherwise be deemed or construed as being for the 
+	benefit of you or any third party. ICRA does not warrant or guarantee that the label will not infringe the 
+	trademark, service mark, trade name, copyright, or other intellectual property rights of any third party.</li>
+  <li>Upon transfer of site responsibility to others, you will notify the successor that the use of the label 
+	(computer code) is subject to these terms and conditions, and that continued use of the ICRA label 
+	(computer code) requires re-labelling. Unless so agreed, you will take steps to remove the label (computer code) 
+	and the database entry through notification to ICRA. The licence gives no right to sub-license any of the rights 
+	granted herein. </li>
+  <li>All notices, claims, requests, and demands to ICRA shall be made in writing by registered or certified mail with 
+	reply postage prepaid to the Chief Executive Officer at the address given at www.icra.org/contact</li>
+  <li>This agreement shall be governed by the laws of the United States of America and subject to the exclusive 
+	jurisdiction of the courts of the United States of America. </li>
+  </ol>
+</div>
 
 
 <?php
