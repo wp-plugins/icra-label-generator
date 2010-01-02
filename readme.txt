@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Matthew Phillips
-Donate link: http://smheart.org/donate
+Donate link: http://smheart.org/donations
 Tags: site, content, ratings, ICRA, label
 Requires at least: 2.6
 Tested up to: 2.9
