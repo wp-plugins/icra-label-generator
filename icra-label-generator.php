@@ -62,7 +62,7 @@ function icralabelgen_options() {
 	?>
 
 	<div class="wrap">
-		<h2>ICRA Label Generator V1.0</h2>
+		<h2>ICRA Label Generator V1.0.1</h2>
 		<div id="icra_main">
 			<div id="icra_left_wrap">
 				<div id="icra_left_inside">
@@ -389,7 +389,7 @@ $footer = "  </label:ContentLabel>
 
 </rdf:RDF>";
 $stringData=$header.$icra.$rfds.$footer;
-$myFile = ABSPATH."icra_label.xml";
+$myFile = ABSPATH."icralabels.xml";
 $fh = fopen($myFile, 'w') or die("can't open file");
 fwrite($fh,$stringData."\t");
 fclose($fh);
