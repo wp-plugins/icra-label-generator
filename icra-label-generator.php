@@ -4,7 +4,7 @@ Plugin Name: ICRA Label Generator
 Plugin URI: http://smheart.org/icra-label-generator/
 Description: This plugin generates the appropriate ICRA ratings for your WordPress site and integrates the information into your site.
 Author: Matthew Phillips
-Version: 1.0
+Version: 1.0.1
 Author URI: http://smheart.org
 
 
