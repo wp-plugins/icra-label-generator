@@ -68,15 +68,15 @@ function icralabelgen_options() {
 				<div id="icra_left_inside">
 					<h3>Donate</h3>
 					<p><em>If you like this plugin and find it useful, help keep this plugin free and actively developed by clicking the <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10657271" target="paypal"><strong>donate</strong></a> button or send me a gift from my <a href="http://amzn.com/w/11GK2Q9X1JXGY" target="amazon"><strong>Amazon wishlist</strong></a>.  Also follow me on <a href="http://twitter.com/kestrachern/" target="twitter"><strong>Twitter</strong></a>.</em></p>
-					<a target="paypal" title="Paypal Donate"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10657271"><img src="/wp-content/plugins/hellotxt/paypal.jpg" alt="Donate with PayPal" /></a>
-					<a target="amazon" title="Amazon Wish List" href="http://amzn.com/w/11GK2Q9X1JXGY"><img src="/wp-content/plugins/hellotxt/amazon.jpg" alt="My Amazon wishlist" /> </a>
-					<a target="Twitter" title="Follow me on Twitter" href="http://twitter.com/kestrachern/"><img src="/wp-content/plugins/hellotxt/twitter.jpg" alt="Twitter" /></a>	
+					<a target="paypal" title="Paypal Donate"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10657271"><img src="/wp-content/plugins/icra-label-generator/paypal.jpg" alt="Donate with PayPal" /></a>
+					<a target="amazon" title="Amazon Wish List" href="http://amzn.com/w/11GK2Q9X1JXGY"><img src="/wp-content/plugins/icra-label-generator/amazon.jpg" alt="My Amazon wishlist" /> </a>
+					<a target="Twitter" title="Follow me on Twitter" href="http://twitter.com/kestrachern/"><img src="/wp-content/plugins/icra-label-generator/twitter.jpg" alt="Twitter" /></a>	
 				</div>
 			</div>
 			<div id="icra_right_wrap">
 				<div id="icra_right_inside">
 				<h3>About the Plugin</h3>
-				<p> The plugin sends a message to the HelloTXT social notification network when a post is published in WordPress.</p>
+				<p> This plugin generates the appropriate ICRA content labels for your site and integrates the information into your site.</p>
 				</div>
 			</div>
 		</div>
